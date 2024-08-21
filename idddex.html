@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="backgroundImage relative theHeight px-10">
+        <nav >
+            <h1> <a href="./idddex.html"><span>BEST FI</span><span>T LIFE</span> </a></h1>
+            <ul>
+               <li><a href="./about.html">About Us</a></li>
+               <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <button style="margin-left: 20rem;">Join Us</button>
+            <div class="dropdown">
+               <i class="fa-solid fa-bars" style="color: #da2323;" class="dropdownbtn "></i>
+               <div class="dropdown-content">
+               <li><a href="./about.html">About Us</a></li>
+               <li><a href="./contact.html">Contact</a></li>
+               <li><a href="./contact.html" style="color: #da2320;">Join Us</a></li>
+               </div>
+            </div>
+           </nav> 
+
+        <div class="main-content">
+            <p class="tagline">BEST WEBSITE FOR BUSY PROFESSIONALS</p>
+            <h1>Health and Fitness Tips <br>for Busy <span class="highlight">Professionals</span></h1>
+            <button class="cta-button"><a href="#classes" style="border: none;">View Classes</a></button>
+        </div>
+
+        <div class="stats">
+            <div>
+                <h1 class="highlight">200+</h1>
+                <p>Fitness Center</p>
+            </div>
+            <div>
+                <h1 class="highlight">670+</h1>
+                <p>Expert Trainer</p>
+            </div>
+            <div>
+                <h1 class="highlight">2.5k</h1>
+                <p>Fitness Trainee</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 my-20 ml-10 px-12">
+        <div class="flex flex-col md:flex-row justify-between gap-10">
+          <div class="flex flex-col justify-between gap-10">
+            <img src="./images/depositphotos.jpg" class="w-full md:w-8/12 h-60">
+            <img src="./images/ropes.jpeg" alt="" class="w-full md:w-8/12 h-60">
+          </div>
+          <div class="flex flex-col justify-between gap-10">
+            <img src="./images/Athleta vs Lululemon_ Which is a Better Athleisure Brand_.jpeg" alt="" class="w-full md:w-11/12 h-60">
+            <img src="./images/strip.jpeg" alt="" class="w-full md:w-11/12 h-60">
+          </div>
+        </div>
+        <div>
+          <p class="text-slate-300">INTRODUCTION ABOUT BEST FIT LIFE</p>
+          <h1 class="text-3xl md:text-4xl font-bold">Your health is <br><span class="text-red-700">our fitness <br>commitment</span></h1>
+          <p class="mt-4">Optimized Wellness Solutions for the Discerning Professional Curated Fitness <br> Guidance, Tailored Workout Routines | Personalized Health Insights As busy <br>professionals, maintaining a healthy lifestyle can present unique challenges. <br>Our team of experts has meticulously crafted a comprehensive suite of wellness <br>resources to empower you on your journey to peak performance. Explore our <br>meticulously researched fitness tips, adaptable workout regimens, and personalized <br>health advice - all designed to seamlessly integrate into your demanding schedule. <br>Elevate your physical and mental well-being, and unlock your full potential with our <br>bespoke solutions.</p>
+          <button class="bg-black px-6 rounded-full py-2 mt-7 border-red-700 border-2 hover:bg-red-700 text-white"> <a href="./about.html">Read more </a></button>
+        </div>
+      </div>
+
+    
+
+    <div class="clasess">
+        <div class=" classes1">
+            <p class="text-slate-300 mb-5">OUR CLASSES</p>
+            <h1 class="text-slate-300 mb-3">Train with us. <span class="text-red-700">Together, we sweat</span></h1>
+            <p>Explore our diverse range of fitness classes designed to meet your specific goals and interests.</p>
+        </div>
+        <div class="classes2">
+            <img src="./images/ppp.jpeg" alt="">
+            <img src="./images/Motivational fitness.jpeg" alt="" >
+            <img src="./images/Manduka Yoga.jpeg" alt="">
+            <img src="./images/main.jpeg" alt="">
+        </div>
+        <div class="classes3">
+            <button>
+                <a href="./about.html">View more</a>
+            </button>
+        </div>
+    </div>
+    
+
+
+    <footer>
+        <div class="contacts">
+            <p>Let's workout <br>with us</p>
+            <button><a href="./contact.html">Contact US</a></button>
+        </div>
+        <div class="footers">
+            <div class="newsletter">
+                <h4>BEST FIT LIFE</h4>
+                <p>Stay in touch with us in order to stay updated on new features and releases</p>
+                <div>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="pages">
+                    <h5>Pages</h5>
+                    <ul>
+                        <li><a href="./index.html">Home Page</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Classes</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="follow-us">
+                    <h5>Follow Us</h5>
+                    <div><i class="fa-brands fa-facebook-f"></i> Facebook</div>
+                    <div><i class="fa-brands fa-instagram"></i> Instagram</div>
+                    <div><i class="fa-brands fa-twitter"></i> Twitter</div>
+                    <div><i class="fa-brands fa-linkedin"></i> LinkedIn</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
